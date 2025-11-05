@@ -110,7 +110,7 @@ export function ServicesSection() {
             return (
               <motion.div key={index} variants={itemVariants}>
                 <Card className="p-8 md:p-12 border-2 border-primary/20 hover:border-primary/40 transition-all duration-300 bg-background/50 backdrop-blur-sm">
-                  <div className="grid md:grid-cols-2 gap-8 items-start">
+                  <div className="grid gap-8 items-start">
                     {/* Service Info */}
                     <div className="space-y-6">
                       <div className="flex items-center gap-4">
