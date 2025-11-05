@@ -30,7 +30,7 @@ export function Navigation() {
 
           {/* Logo */}
           <div className="flex items-center">
-            <Image src="/goldLogo.png" alt="Fridahva Logo" width={40} height={40} className="hover:animate-ping" />
+            <Image src="/goldLogo.png" alt="StoicVA Logo" width={40} height={40} className="hover:animate-ping" />
             <Link href="/" className="text-2xl font-thin text-[#D4AF37] ml-2">
               StoicVAs
             </Link>

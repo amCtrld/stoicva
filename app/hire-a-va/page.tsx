@@ -6,9 +6,9 @@ import { BookCallButton } from "@/components/book-call-button"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Hire a Virtual Assistant | Professional VA Matching | Fridahva",
+  title: "Hire a Virtual Assistant | Professional VA Matching | StoicVA",
   description:
-    "Find your perfect virtual assistant with Fridahva. Quick screening, personalized matching, and fast onboarding for entrepreneurs and small businesses. Get a free consultation today.",
+    "Find your perfect virtual assistant with StoicVA. Quick screening, personalized matching, and fast onboarding for entrepreneurs and small businesses. Get a free consultation today.",
   keywords: [
     "hire virtual assistant",
     "VA services",
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "virtual assistant matching",
   ],
   openGraph: {
-    title: "Hire a Virtual Assistant | Fridahva",
+    title: "Hire a Virtual Assistant | StoicVA",
     description: "Find your perfect virtual assistant with personalized matching and fast onboarding.",
     type: "website",
-    url: "https://fridahva.vercel.app/hire-a-va",
+    url: "https://stoicva.vercel.app/hire-a-va",
     images: [
       {
-        url: "https://fridahva.vercel.app/og-image.jpg",
+        url: "https://stoicva.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Hire a Virtual Assistant",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hire a Virtual Assistant | Fridahva",
+    title: "Hire a Virtual Assistant | StoicVA",
     description: "Find your perfect virtual assistant with personalized matching.",
   },
   robots: {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://fridahva.vercel.app/hire-a-va",
+    canonical: "https://stoicva.vercel.app/hire-a-va",
   },
 }
 

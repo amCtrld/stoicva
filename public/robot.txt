@@ -13,8 +13,8 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap location
-Sitemap: https://fridahva.com/sitemap.xml
-Sitemap: https://fridahva.com/sitemap-products.xml
+Sitemap: https://stoicvas.com/sitemap.xml
+Sitemap: https://stoicvas.com/sitemap-products.xml
 
 # Crawl delay
 Crawl-delay: 1

@@ -5,9 +5,9 @@ import { TestimonialsGrid } from "@/components/testimonials-grid"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Client Testimonials & Success Stories | Virtual Assistant Reviews | Fridahva",
+  title: "Client Testimonials & Success Stories | Virtual Assistant Reviews | StoicVA",
   description:
-    "Read success stories from hundreds of business owners and entrepreneurs using Fridahva virtual assistants. See real results and transformations in business operations.",
+    "Read success stories from hundreds of business owners and entrepreneurs using StoicVA virtual assistants. See real results and transformations in business operations.",
   keywords: [
     "virtual assistant reviews",
     "client testimonials",
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     "business transformation",
   ],
   openGraph: {
-    title: "Client Testimonials & Success Stories | Fridahva",
-    description: "See success stories from business owners using Fridahva.",
+    title: "Client Testimonials & Success Stories | StoicVA",
+    description: "See success stories from business owners using StoicVA.",
     type: "website",
-    url: "https://fridahva.vercel.app/testimonials",
+    url: "https://stoicva.vercel.app/testimonials",
     images: [
       {
-        url: "https://fridahva.vercel.app/og-image-2.jpg",
+        url: "https://stoicva.vercel.app/og-image-2.jpg",
         width: 1200,
         height: 630,
         alt: "Client testimonials and success stories",
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Client Testimonials | Fridahva",
-    description: "See success stories from business owners using Fridahva.",
+    title: "Client Testimonials | StoicVA",
+    description: "See success stories from business owners using StoicVA.",
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "https://fridahva.vercel.app/testimonials",
+    canonical: "https://stoicva.vercel.app/testimonials",
   },
 }
 

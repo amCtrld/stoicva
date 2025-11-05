@@ -10,7 +10,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "CEO, Tech Startup",
     content:
-      "Hiring a VA through Fridahva completely transformed how I manage my business. I went from working 60+ hour weeks to actually having work-life balance. The matching process was incredibly smooth.",
+      "Hiring a VA through StoicVA completely transformed how I manage my business. I went from working 60+ hour weeks to actually having work-life balance. The matching process was incredibly smooth.",
     rating: 5,
     avatar: "/sarah-johnson.jpg",
   },
@@ -34,7 +34,7 @@ const testimonials = [
     name: "David Kumar",
     role: "Consultant",
     content:
-      "I was skeptical about hiring a remote VA, but Fridahva made it effortless. The onboarding was quick, communication is clear, and the quality of work exceeded expectations.",
+      "I was skeptical about hiring a remote VA, but StoicVA made it effortless. The onboarding was quick, communication is clear, and the quality of work exceeded expectations.",
     rating: 5,
     avatar: "/david-kumar.jpg",
   },
@@ -42,7 +42,7 @@ const testimonials = [
     name: "Lisa Thompson",
     role: "Small Business Owner",
     content:
-      "Affordable, reliable, and professional. My VA has become an integral part of my team. I appreciate how Fridahva handles all the administrative details so I can focus on growth.",
+      "Affordable, reliable, and professional. My VA has become an integral part of my team. I appreciate how StoicVA handles all the administrative details so I can focus on growth.",
     rating: 5,
     avatar: "/lisa-thompson.jpg",
   },

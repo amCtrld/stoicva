@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
     // Prepare Mailgun request
     const formData = new FormData()
     formData.append("from", `noreply@${domain}`)
-    formData.append("to", "vasfridah@gmail.com")
+    formData.append("to", "stoicvas@gmail.com")
     formData.append("cc", email)
     formData.append("subject", `New Contact Form: ${subject}`)
     formData.append(

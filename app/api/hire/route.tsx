@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
     // Prepare Mailgun request
     const formData = new FormData()
     formData.append("from", `noreply@${domain}`)
-    formData.append("to", "vasfridah@gmail.com")
+    formData.append("to", "stoicvas@gmail.com")
     formData.append("cc", email)
     formData.append("subject", `New VA Hire Request - ${firstName} ${lastName}`)
     formData.append(
@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
         
         <hr style="margin: 20px 0;">
         <p style="color: #666; font-size: 12px;">
-          <em>This request was submitted on ${new Date().toLocaleString()} via the FridahVA website.</em>
+          <em>This request was submitted on ${new Date().toLocaleString()} via the StoicVA website.</em>
         </p>
       </div>
     `,
