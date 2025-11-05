@@ -10,6 +10,11 @@ module.exports = {
       fontFamily: {
         serif: ["var(--font-serif)", "serif"],
       },
+      colors: {
+        gold: '#d4af37',
+        maroon: '#7c2b1a',
+        cream: '#f8f5f0',
+      },
     },
   },
   plugins: [],
