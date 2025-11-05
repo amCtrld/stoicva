@@ -78,7 +78,7 @@ export function Navigation() {
             <Link href="/#how-it-works" className="block text-sm text-[#FFF8E7] hover:text-foreground">
               How It Works
             </Link>
-            <Link href="/services" className="text-sm text-[#FFF8E7] hover:text-foreground transition-colors">
+            <Link href="/services" className="block text-sm text-[#FFF8E7] hover:text-foreground transition-colors">
               Services
             </Link>
             <Link href="/#about" className="block text-sm text-[#FFF8E7] hover:text-foreground">
