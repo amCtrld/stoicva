@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Mail, Linkedin, Twitter, Instagram } from "lucide-react"
 
 export function Footer() {
@@ -84,6 +85,23 @@ export function Footer() {
               Terms of Service
             </Link>
           </div>
+        </div>
+        <div className="flex justify-center mt-6">
+          <Link
+            href="https://mbugua.nijue.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group border rounded-lg shadow-sm p-2 mt-4 text-center text-sm text-foreground/60 flex flex-col justify-center items-center hover:text-primary transition-colors hover:translate-y-1"
+          >
+            <span>Crafted by Mbugua</span>
+            <Image
+              src="/amctrld.png"
+              alt="amCtrld Logo"
+              width={32}
+              height={32}
+              className="inline-block ml-1 mt-2"
+            />
+          </Link>
         </div>
       </div>
     </footer>

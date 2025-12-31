@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 // import { Analytics } from "@vercel/analytics/next"
-import { Watermark } from "@/components/watermark"
+// import { Watermark } from "@/components/watermark"
 import { ChatButton } from "@/components/ChatButton"
 import "./globals.css"
 import { Noto_Serif } from "next/font/google"
@@ -90,7 +90,7 @@ export default function RootLayout({
       </head>
       <body className={`${notoSerif.variable} font-serif antialiased`}>
         {children}
-        <Watermark />
+        {/* <Watermark /> */}
         <ChatButton />
         {/* <Analytics /> */}
       </body>
